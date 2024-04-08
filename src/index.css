@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  /* overflow-x: hidden; */
+}
+body {
+  background-color: #f9f9f9;
+  position: relative;
+  /* overflow-x: hidden; */
+}
+.swiper-wrapper {
+  display: flex;
+  align-items: flex-end !important;
+}
+.strike {
+  text-decoration: none;
+}

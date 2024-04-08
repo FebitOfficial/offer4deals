@@ -1,0 +1,310 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Smartphone",
+      "category": {
+        "name": "Electronics",
+        "description": "Electronic devices and gadgets."
+      },
+      "description": "Mobile phone with advanced features.",
+      "discount": 48,
+      "price": 500,
+      "image_url": "https://m.media-amazon.com/images/W/MEDIAX_849526-T3/images/I/71657TiFeHL._AC_UY218_.jpg",
+      "deal_of_the_day": false,
+      "total_sold": 14,
+      "total_items": 47,
+      "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MToyMDMyMjI0MTQ5MDg4MDQ4OjE3MDgyOTE1MTA6c3BfYXRmOjMwMDA1NDM0NTk0NzYzMjo6MDo6&url=%2FApple-iPhone-15-128-GB%2Fdp%2FB0CHX1W1XY%2Fref%3Dsr_1_1_sspa%3Fcrid%3D38Y5O73DV4E23%26keywords%3Diphone%26qid%3D1708291510%26sprefix%3Dipho%252Caps%252C339%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1",
+      "site": "amazon"
+    },
+    {
+      "id": 2,
+      "name": "Laptop",
+      "category": {
+        "name": "Electronics",
+        "description": "Electronic devices and gadgets."
+      },
+      "description": "Portable computer for personal or professional use.",
+      "discount": 12,
+      "price": 1000,
+      "image_url": "https://m.media-amazon.com/images/W/MEDIAX_849526-T3/images/I/71S4sIPFvBL._AC_UY218_.jpg",
+      "deal_of_the_day": true,
+      "total_sold": 14,
+      "total_items": 47,
+      "link": "https://m.media-amazon.com/images/W/MEDIAX_849526-T3/images/I/71S4sIPFvBL._AC_UY218_.jpg",
+      "site": "amazon"
+    },
+    {
+      "id": 3,
+      "name": "T-shirt",
+      "category": {
+        "name": "Clothing",
+        "description": "Apparel and fashion items."
+      },
+      "description": "Casual cotton shirt for everyday wear.",
+      "discount": 22,
+      "price": 20,
+      "image_url": "https://m.media-amazon.com/images/W/MEDIAX_849526-T3/images/I/51qRyVynXSL._AC_UL320_.jpg",
+      "deal_of_the_day": false,
+      "total_sold": 14,
+      "total_items": 47,
+      "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo3NzQzMzI3NjgxNzE0MDQ4OjE3MDgyOTE2NDI6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDEzMDA0NDExMDkzMjo6MTo6&url=%2FADRO-Mens-Printed-T-Shirt-Black%2Fdp%2FB09PNR1QJS%2Fref%3Dsxin_15_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.7053c8f7-fe9b-4bae-ac53-ef209df9a98b%253Aamzn1.sym.7053c8f7-fe9b-4bae-ac53-ef209df9a98b%26crid%3D3I058YUCDARFS%26cv_ct_cx%3Dt%2B-shirt%26keywords%3Dt%2B-shirt%26pd_rd_i%3DB09PNR1QJS%26pd_rd_r%3D56e710bf-c820-46ae-8ab4-730ba4bd75fa%26pd_rd_w%3DBYmWP%26pd_rd_wg%3D33Syr%26pf_rd_p%3D7053c8f7-fe9b-4bae-ac53-ef209df9a98b%26pf_rd_r%3D8CSKSQNQFFB6HGJR8QY5%26qid%3D1708291642%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dt%2B-shir%252Caps%252C306%26sr%3D1-2-428a61eb-7067-4b6b-9490-2a8ba2da9c66-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1",
+      "site": "amazon"
+    },
+    {
+      "id": 4,
+      "name": "Jeans",
+      "category": {
+        "name": "Clothing",
+        "description": "Apparel and fashion items."
+      },
+      "description": "Denim pants for men or women.",
+      "discount": 25,
+      "price": 40,
+      "image_url": "https://m.media-amazon.com/images/W/MEDIAX_849526-T3/images/I/61gSKixFuEL._AC_UL320_.jpg",
+      "deal_of_the_day": false,
+      "total_sold": 14,
+      "total_items": 47,
+      "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1NTc3MzQyNjg3MjU4MDQ4OjE3MDgyOTE2NzY6c3BfYXRmOjMwMDEzMzE2NDA4NjIzMjo6MDo6&url=%2FAmerican-Eagle-Mens-Jeans-WEC0116355896_Blue_29%2Fdp%2FB0BCQGZ8YW%2Fref%3Dsr_1_2_sspa%3Fcrid%3D3M6F43WXDVTAJ%26keywords%3Djeans%26qid%3D1708291676%26sprefix%3Dje%252Caps%252C264%26sr%3D8-2-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1",
+      "site": "amazon"
+    },
+    {
+      "id": 5,
+      "name": "Refrigerator",
+      "category": {
+        "name": "Appliances",
+        "description": "Home appliances and equipment."
+      },
+      "description": "Large cooling appliance for preserving food.",
+      "discount": 38,
+      "price": 800,
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/refrigerator-new/9/o/q/-original-imagsjwrgev8eabq.jpeg?q=70",
+      "deal_of_the_day": false,
+      "total_sold": 14,
+      "total_items": 47,
+      "link": "https://www.flipkart.com/godrej-180-l-direct-cool-single-door-2-star-refrigerator-jumbo-vegetable-tray-wide-shelf-space/p/itmc2b5e13b2c2f8?pid=RFRGHRGHY2DYW3ES&lid=LSTRFRGHRGHY2DYW3ESH9LEQH&marketplace=FLIPKART&q=Refrigator&store=j9e%2Fabm%2Fhzg&srno=s_1_2&otracker=search&otracker1=search&fm=organic&iid=en_as7N7UV_Krax8pSgMI7H87uM3mDdZ5gxaUC31D9nUKePbdQiVuuyluk4hZRmVeSy3UZMamBbfV3K0qqO8t8BWA%3D%3D&ppt=hp&ppn=homepage&ssid=8x6ccrbs0g0000001708291723866&qH=8ccc233c761c4179",
+      "site": "flipkart"
+    },
+    {
+      "id": 6,
+      "name": "Microwave Oven",
+      "category": {
+        "name": "Appliances",
+        "description": "Home appliances and equipment."
+      },
+      "description": "Appliance for cooking or heating food quickly.",
+      "discount": 18,
+      "price": 200,
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/microwave-new/y/t/t/-original-imagqkfykrwhpfqs.jpeg?q=70",
+      "deal_of_the_day": true,
+      "total_sold": 14,
+      "total_items": 47,
+      "link": "https://www.flipkart.com/panasonic-20-l-solo-microwave-oven/p/itm44af8460a2306?pid=MRCFTZ8EWHBBPCSC&lid=LSTMRCFTZ8EWHBBPCSC9AO4IF&marketplace=FLIPKART&q=microwave+oven&store=j9e%2Fm38%2Fo49&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_na&fm=Search&iid=en_6Q55zpFQLHi00Qp7o1jTU1Wumly3GVXF-RdmAaAu_IKmzGA4p9aYUshBa5odP5_41g8rOHCjt4gmgz-ACtPbUg%3D%3D&ppt=sp&ppn=sp&ssid=umhfmbaf4w0000001708291757695&qH=473b4abe03a500c3",
+      "site": "flipkart"
+    },
+    {
+      "id": 7,
+      "name": "Smartwatch",
+      "category": {
+        "name": "Electronics",
+        "description": "Electronic devices and gadgets."
+      },
+      "description": "Wearable device with various functionalities.",
+      "discount": 15,
+      "price": 250,
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/r/w/n/34-id116-android-ios-rk-club-no-original-imagy46wufefe9sz.jpeg?q=70",
+      "deal_of_the_day": false,
+      "total_sold": 30,
+      "total_items": 60,
+      "link": "https://www.flipkart.com/rk-club-id116-smart-bracelet-watch-fitness-smartwatch/p/itmc17e5b5b2400e?pid=SMWGWCJSVEDGFZ8Q&lid=LSTSMWGWCJSVEDGFZ8QR30WFX&marketplace=FLIPKART&q=smartwatch&store=ajy%2Fbuh&srno=s_1_2&otracker=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_na&fm=search-autosuggest&iid=en_N-aDsjrOlGaBzCtMkaw6EUgIZyLC8vtb6f3sj_45GTQfk62qn_Ah3zSoqycUav2RvLyqrKS_W87MVrbqxlr9lg%3D%3D&ppt=sp&ppn=sp&ssid=ftvcs5nirk0000001708291813000&qH=adc5bc5b72db9fa3",
+      "site": "flipkart"
+    },
+    {
+      "id": 8,
+      "name": "Bluetooth Speaker",
+      "category": {
+        "name": "Electronics",
+        "description": "Electronic devices and gadgets."
+      },
+      "description": "Portable speaker with wireless connectivity.",
+      "discount": 10,
+      "price": 80,
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/speaker/soundbar/e/q/y/m423sp-portable-home-tv-soundbar-dynamic-thunder-sound-2400mah-original-imagj65gvywxx6jh.jpeg?q=70",
+      "deal_of_the_day": true,
+      "total_sold": 50,
+      "total_items": 80,
+      "link": "https://www.flipkart.com/mz-m423sp-portable-home-tv-dynamic-thunder-sound-2400mah-battery-10-w-bluetooth-soundbar/p/itmcdceefdbd4aa5?pid=ACCGJ65GGTDEJBBN&lid=LSTACCGJ65GGTDEJBBNRUG0SQ&marketplace=FLIPKART&q=bluetooth+speaker&store=0pm%2F0o7&spotlightTagId=BestsellerId_0pm%2F0o7&srno=s_1_4&otracker=search&otracker1=search&fm=Search&iid=ec3d851c-96f0-4d24-853b-9fe68a498d8c.ACCGJ65GGTDEJBBN.SEARCH&ppt=sp&ppn=sp&ssid=qbvd8w78og0000001708291860874&qH=d856d759fb55d27e",
+      "site": "flipkart"
+    },
+    {
+      "id": 9,
+      "name": "Running Shoes",
+      "category": {
+        "name": "Footwear",
+        "description": "Shoes for various activities."
+      },
+      "description": "Sports shoes designed for running or jogging.",
+      "discount": 20,
+      "price": 120,
+      "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/23707466/2023/6/21/ba5896b5-1f89-410b-93d5-70d6be55bd411687336002837HRXbyHrithikRoshanMenWhiteMeshRunningNon-MarkingShoes1.jpg",
+      "deal_of_the_day": false,
+      "total_sold": 20,
+      "total_items": 40,
+      "link": "https://www.myntra.com/sports-shoes/hrx+by+hrithik+roshan/hrx-by-hrithik-roshan-men-memory-foam-mesh-non-marking-running-shoes/23707466/buy",
+      "site": "myntra"
+    },
+    {
+      "id": 10,
+      "name": "Dress Shirt",
+      "category": {
+        "name": "Clothing",
+        "description": "Apparel and fashion items."
+      },
+      "description": "Formal shirt suitable for business or formal occasions.",
+      "discount": 18,
+      "price": 60,
+      "image_url": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/26867052/2024/1/10/10aa2b1a-4c94-408e-b802-246f7ca00f331704901671071HERENOWMenMulticolouredSlimFitTartanChecksOpaqueCheckedCasua6.jpg",
+      "deal_of_the_day": false,
+      "total_sold": 25,
+      "total_items": 50,
+      "link": "https://www.myntra.com/shirts/here%26now/herenow-slim-fit-tartan-checked-casual-shirt/26867052/buy",
+      "site": "myntra"
+    },
+    {
+      "id": 11,
+      "name": "Gaming Console",
+      "category": {
+        "name": "Electronics",
+        "description": "Electronic devices and gadgets."
+      },
+      "description": "Entertainment system for playing video games.",
+      "discount": 30,
+      "price": 400,
+      "image_url": "https://m.media-amazon.com/images/W/MEDIAX_849526-T3/images/I/41DbQt3uCnL._AC_UY218_.jpg",
+      "deal_of_the_day": true,
+      "total_sold": 35,
+      "total_items": 70,
+      "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MToyNTA1NDcxNDQ3Mjk1MDQ4OjE3MDgyOTIwNDE6c3BfYXRmOjMwMDEwODEwMzcxOTQzMjo6MDo6&url=%2FGSH-Console-Emulator-Wireless-Controller%2Fdp%2FB09SQ6W7FJ%2Fref%3Dsr_1_1_sspa%3Fcrid%3D2K1PQR5G35BK5%26keywords%3Dgaming%2Bconsole%26qid%3D1708292041%26sprefix%3Dgaming%2Bconso%252Caps%252C327%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1",
+      "site": "amazon"
+    },
+    {
+      "id": 12,
+      "name": "Backpack",
+      "category": {
+        "name": "Accessories",
+        "description": "Various accessories for daily use."
+      },
+      "description": "Stylish and functional bag for carrying essentials.",
+      "discount": 15,
+      "price": 50,
+      "image_url": "https://images.meesho.com/images/products/364360207/onzjw_400.webp",
+      "deal_of_the_day": false,
+      "total_sold": 40,
+      "total_items": 80,
+      "link": "https://www.meesho.com/funky-designer-kids-unisex-bags-backpacks/p/60xi4v",
+      "site": "meesho"
+    },
+    {
+      "id": 13,
+      "name": "Desk Lamp",
+      "category": {
+        "name": "Home Decor",
+        "description": "Decorative items for home or office."
+      },
+      "description": "Adjustable lamp for providing task lighting.",
+      "discount": 10,
+      "price": 30,
+      "image_url": "https://m.media-amazon.com/images/W/MEDIAX_849526-T3/images/I/818yDyo4ciL._AC_UL320_.jpg",
+      "deal_of_the_day": false,
+      "total_sold": 20,
+      "total_items": 60,
+      "link": "https://www.amazon.in/Crosscut-Furniture-Metal-Shelves-Natural/dp/B0B6SXGSD5/ref=sr_1_12?crid=1P37CPI9RDIZ3&keywords=lamp&qid=1708292138&sprefix=la%2Caps%2C487&sr=8-12",
+      "site": "amazon"
+    },
+    {
+      "id": 14,
+      "name": "Sunglasses",
+      "category": {
+        "name": "Accessories",
+        "description": "Various accessories for daily use."
+      },
+      "description": "Fashionable eyewear for UV protection.",
+      "discount": 25,
+      "price": 80,
+      "image_url": "https://images.meesho.com/images/products/149924237/xomsd_400.webp",
+      "deal_of_the_day": false,
+      "total_sold": 15,
+      "total_items": 45,
+      "link": "https://www.meesho.com/roadway-brand-quality-fancy-design-new-goggles-for-men-boys/p/2h9ea5",
+      "site": "meesho"
+    },
+    {
+      "id": 15,
+      "name": "Fitness Tracker",
+      "category": {
+        "name": "Electronics",
+        "description": "Electronic devices and gadgets."
+      },
+      "description": "Device for monitoring fitness and health metrics.",
+      "discount": 20,
+      "price": 90,
+      "image_url": "https://m.media-amazon.com/images/W/MEDIAX_849526-T3/images/I/61AeGQhwjxL._AC_UY218_.jpg",
+      "deal_of_the_day": false,
+      "total_sold": 30,
+      "total_items": 60,
+      "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo3ODQ3NDkwNDU3MjU2MDQ4OjE3MDgyOTIyNDk6c3BfYXRmOjMwMDExNjMxMzU5OTkzMjo6MDo6&url=%2FFitbit-Inspire-Fitness-Midnight-Membership%2Fdp%2FB0B75RC9C3%2Fref%3Dsr_1_1_sspa%3Fcrid%3D2W0PHW10UVFZ%26keywords%3Dfitbit%26qid%3D1708292249%26sprefix%3Dfitbi%252Caps%252C358%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1",
+      "site": "amazon"
+    },
+    {
+      "id": 16,
+      "name": "Wireless Earbuds",
+      "category": {
+        "name": "Latest Deals",
+        "description": "Newest offers and discounts."
+      },
+      "description": "True wireless earphones for immersive audio experience.",
+      "discount": 20,
+      "price": 50,
+      "image_url": "https://m.media-amazon.com/images/W/MEDIAX_849526-T3/images/I/71TEQ3ONHcL._AC_UY218_.jpg",
+      "deal_of_the_day": true,
+      "total_sold": 10,
+      "total_items": 30,
+      "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MToxMTM1MjM0NDkyMjU1MDUxOjE3MDg1NDAwMzU6c3BfbXRmOjMwMDA4ODkyMTc0MTUwMjo6MDo6&url=%2FBluetooth-Speaker-Wireless-Portable-Speakers%2Fdp%2FB0CJV2RD5P%2Fref%3Dsr_1_12_sspa%3Fcrid%3D1XWICRWBA93U2%26dib%3DeyJ2IjoiMSJ9.j0ju44uHrad7jYMpFg3HERcHwpATa9lL5Z-CNBS3uVLfmGdqoKDs_DVJDJnOGr65V8QRgJBynxlCT4PYvnFkPRsXX7eDobK9Zvvlqp_V-PbYzfiK_OWcF6FGCKLAU2O2MSksHY8JI6tr1Iao3PF-0TluifrYJV_k5TytpfjZlGtz7vTGdbZpM0dr3COCz-SZ51kaoye_0Ym5Un4MSZ2zmd5_sH5mjRjRZ1c4pWmFVhE.oDu7DwfgCfVdBvyXTWLWfMUkn0aST3SwxRsTAFPm-xs%26dib_tag%3Dse%26keywords%3Dwireless%2Bspeaker%26qid%3D1708540035%26sprefix%3Dwireless%2Bs%252Caps%252C640%26sr%3D8-12-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1",
+      "site": "amazon"
+    },
+    {
+      "id": 17,
+      "name": "Portable Charger",
+      "category": {
+        "name": "Latest Deals",
+        "description": "Newest offers and discounts."
+      },
+      "description": "Compact power bank for charging devices on the go.",
+      "discount": 15,
+      "price": 25,
+      "image_url": "https://m.media-amazon.com/images/W/MEDIAX_849526-T3/images/I/71rtJF1huJL._AC_UY218_.jpg",
+      "deal_of_the_day": true,
+      "total_sold": 8,
+      "total_items": 20,
+      "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MToyMjcwNjkwMDAyODY3MDUxOjE3MDg1NDA0MDM6c3BfYXRmOjIwMDEzNDI0ODg1MjE5ODo6MDo6&url=%2FCharger-MFiCertified-Lightning-Charging-Adapter%2Fdp%2FB0BFHTGYZL%2Fref%3Dsr_1_2_sspa%3Fcrid%3D382RN0JJSQ2NM%26dib%3DeyJ2IjoiMSJ9.o_Lmy_oYpHKzoMP29UyZjUYMYGRbch41ilEWZjm6HiGLg2AyMxo5Xn-zMuwBxJj_rW6b571b-g3Bz8WXdvDDQr-FTO71HxwAVjg49iSj8REWtYUK3Pc6xLxfNO3lcexpBS9if5aYp9ryp7S18-w_joxDdswPKs4nFJVdrOH0oyYjxQLV7JWflUE5u3aNM5VHhBcYAZUuhb_e1TRDvCKJOxfmavRBMmFDHObI5A9kwLo.nNQFgF4he5d6mq6wfVra5Z8OYPPeJTIGyRM7um4LI-c%26dib_tag%3Dse%26keywords%3Dcharger%26qid%3D1708540403%26sprefix%3Dcha%252Caps%252C701%26sr%3D8-2-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1",
+      "site": "amazon"
+    },
+    {
+      "id": 18,
+      "name": "Bluetooth Speaker",
+      "category": {
+        "name": "Latest Deals",
+        "description": "Newest offers and discounts."
+      },
+      "description": "Portable speaker with wireless connectivity.",
+      "discount": 10,
+      "price": 80,
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/speaker/soundbar/e/q/y/m423sp-portable-home-tv-soundbar-dynamic-thunder-sound-2400mah-original-imagj65gvywxx6jh.jpeg?q=70",
+      "deal_of_the_day": true,
+      "total_sold": 50,
+      "total_items": 80,
+      "link": "https://www.flipkart.com/mz-m423sp-portable-home-tv-dynamic-thunder-sound-2400mah-battery-10-w-bluetooth-soundbar/p/itmcdceefdbd4aa5?pid=ACCGJ65GGTDEJBBN&lid=LSTACCGJ65GGTDEJBBNRUG0SQ&marketplace=FLIPKART&q=bluetooth+speaker&store=0pm%2F0o7&spotlightTagId=BestsellerId_0pm%2F0o7&srno=s_1_4&otracker=search&otracker1=search&fm=Search&iid=ec3d851c-96f0-4d24-853b-9fe68a498d8c.ACCGJ65GGTDEJBBN.SEARCH&ppt=sp&ppn=sp&ssid=qbvd8w78og0000001708291860874&qH=d856d759fb55d27e",
+      "site": "flipkart"
+    }
+  ]
+}
