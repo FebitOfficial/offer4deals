@@ -18,14 +18,15 @@ const Footer = () => {
                 <div className="flex flex-col gap-4 pl-4 md:pl-2">
                   <p className="text-base leading-relaxed text-body-color text-body-color-dark">
                     Call Us At:{" "}
-                    <span className="text-[#229e43]">0161 459 4752</span>
+                    <span className="text-[#229e43]">9620897108</span>
                   </p>
                   <p className="text-green-primary font-medium">
                     <span className="text-body-color">Email: </span>{" "}
-                    infooffer4deals@gmail.com
+                    support@offer4deals.com
                   </p>
                   <p className="font-medium text-body-color">
-                    Karnataka, India
+                    #45, 4th Main Road, Dollars Layout, BTM Layout 2nd Stage,
+                    Bengaluru- 560076
                   </p>
                 </div>
               </div>
