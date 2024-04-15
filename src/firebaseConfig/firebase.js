@@ -10,14 +10,17 @@ import { getDatabase, ref, onValue } from "firebase/database";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
+// Import the functions you need from the SDKs you need
+
 const firebaseConfig = {
-  apiKey: "AIzaSyDoEZAj7kQhuRCSU0bCXCQKqG0gQ95pDz4",
-  authDomain: "offer-4-d.firebaseapp.com",
-  projectId: "offer-4-d",
-  storageBucket: "offer-4-d.appspot.com",
-  messagingSenderId: "518707532292",
-  appId: "1:518707532292:web:a5cde1ce845aa1f94a1b51",
+  apiKey: "AIzaSyCDJpmx9D6-Vd0TVQThbWNyte4u-FPotPk",
+  authDomain: "offer4deals-737a2.firebaseapp.com",
+  projectId: "offer4deals-737a2",
+  storageBucket: "offer4deals-737a2.appspot.com",
+  messagingSenderId: "255405339197",
+  appId: "1:255405339197:web:094011135337c070a27054",
+  databaseURL:
+    "https://offer4deals-737a2-default-rtdb.asia-southeast1.firebasedatabase.app",
 };
 
 // Initialize Firebase
