@@ -23,7 +23,7 @@ function App() {
   }, []);
   return (
     <div className="flex flex-col justify-between w-full h-[100vh] bg-bgPrimary">
-      <button className="bg-white rounded-tl-[16px] shadow-2 rounded-bl-[16px] pl-[5px] right-0 top-[50%] translate-y-[-50%] fixed z-[99999999]">
+      <button className="bg-white hidden rounded-tl-[16px] shadow-2 rounded-bl-[16px] pl-[5px] right-0 top-[50%] translate-y-[-50%] fixed z-[99999999]">
         <a
           href="https://wa.me/8904458815"
           className="contact-data-info"
@@ -37,7 +37,7 @@ function App() {
           />
         </a>
       </button>
-      <button className="bg-white rounded-tl-[16px] py-[6px] shadow-2 rounded-bl-[16px] pl-[5px] right-0 top-[40%] translate-y-[-50%] fixed z-[99999999]">
+      <button className="bg-white hidden rounded-tl-[16px] py-[6px] shadow-2 rounded-bl-[16px] pl-[5px] right-0 top-[40%] translate-y-[-50%] fixed z-[99999999]">
         <a
           href="https://t.me/"
           className="contact-data-info"

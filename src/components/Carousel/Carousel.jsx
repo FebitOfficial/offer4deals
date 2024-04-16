@@ -1,12 +1,14 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import CustomSwiper from "../Swiper/Swiper";
 import { bannerItems } from ".";
 import { SwiperSlide } from "swiper/react";
 import { motion } from "framer-motion";
 import { logo } from "pages/Home";
 import ProgressBar from "components/ProgressBar/ProgressBar";
+import { getImages } from "firebaseConfig/firebase";
 
 const Carousel = ({ products }) => {
+  const [bannerImages, setBannerImages] = useState([]);
   const descVariants = {
     initial: {
       opacity: 0.8,
@@ -23,24 +25,30 @@ const Carousel = ({ products }) => {
       },
     },
   };
+  const fetchImages = () => {
+    getImages().then((res) => setBannerImages(res));
+  };
+  useEffect(() => {
+    fetchImages();
+  }, []);
   const [showDesc, setShowDesc] = useState(false);
   return (
     <div className="w-full bg-inherit py-[8px] rounded-b-[50px]">
       <div className=" max-w-[100%] md:max-w-[95%] lg:max-w-[1440px] bg-inherit m-auto flex flex-col lg:flex-row items-end gap-[56px] md:py-[26px]">
         <div className="w-[100%] lg:w-[65%] bg-inherit">
-          <h1 className="text-center md:text-left md:px-[24px] text-[20px] md:text-[32px] lg:text-[48px] py-[24px] font-semibold">
+          <h1 className="text-center md:text-left md:px-[12px] text-[20px] md:text-[32px] lg:text-[38px] py-[24px] font-semibold">
             Heavy Discounts On All Your Favorites
           </h1>
           <CustomSwiper
-            swiperSlideContent={bannerItems.map((item) => {
+            swiperSlideContent={bannerImages.map((item) => {
               return (
                 <SwiperSlide>
                   <div
-                    className="max-h-[50vh] bg-inherit
+                    className="max-h-[60vh] bg-inherit
                    w-full shadow-lg overflow-hidden"
                   >
                     <img
-                      src={item.img}
+                      src={item}
                       alt="banner"
                       className="w-full h-full object-contain"
                     />

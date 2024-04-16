@@ -16,18 +16,18 @@ const Footer = () => {
                   <h1 className="text-[48px]  font-bold">Offers4Deals</h1>
                 </Link>
                 <div className="flex flex-col gap-4 pl-4 md:pl-2">
-                  <p className="text-base leading-relaxed text-body-color text-body-color-dark">
+                  {/* <p className="text-base leading-relaxed text-body-color text-body-color-dark">
                     Call Us At:{" "}
                     <span className="text-[#229e43]">9620897108</span>
-                  </p>
+                  </p> */}
                   <p className="text-green-primary font-medium">
                     <span className="text-body-color">Email: </span>{" "}
-                    support@offer4deals.com
+                    support@offers4dealss.com
                   </p>
-                  <p className="font-medium text-body-color">
+                  {/* <p className="font-medium text-body-color">
                     #45, 4th Main Road, Dollars Layout, BTM Layout 2nd Stage,
                     Bengaluru- 560076
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -135,7 +135,7 @@ const Footer = () => {
 
           <div className="flex flex-col items-start justify-start gap-4 py-4 pl-4 md:flex-row md:items-center  md:justify-between md:gap-0 md:pl-0">
             <p className="text-base text-body-color text-white">
-              Ⓒ 2024 Offer4Deals All Rights Reserved
+              Ⓒ 2024 offers4dealss All Rights Reserved
             </p>
             <div className="flex flex-col items-start justify-start gap-4 py-4 text-body-color md:flex-row md:items-center md:py-0">
               <p>Terms and Conditions</p>

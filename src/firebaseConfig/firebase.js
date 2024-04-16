@@ -43,3 +43,18 @@ export const getProducts = () => {
     );
   });
 };
+export const getImages = () => {
+  const imagesRef = ref(db, "images");
+  return new Promise((resolve, reject) => {
+    onValue(
+      imagesRef,
+      (snapshot) => {
+        const data = snapshot.val();
+        resolve(data);
+      },
+      (error) => {
+        reject(error);
+      }
+    );
+  });
+};
