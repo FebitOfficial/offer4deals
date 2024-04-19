@@ -8,19 +8,28 @@ import Footer from "components/Footer/Footer";
 import ContactUs from "pages/ContactUs/ContactUs";
 import { useEffect, useState } from "react";
 import { getProducts } from "firebaseConfig/firebase";
+import Loader from "components/Loader/Loader";
 // import Home from "pages/Home/Home";
 
 function App() {
   const [data, setData] = useState(null);
+  const [loading, setLoading] = useState(false);
   useEffect(() => {
     const fetchData = async () => {
-      const res = await getProducts();
-      console.log(res);
-      setData(res);
+      try {
+        setLoading(true);
+        const res = await getProducts();
+        console.log(res);
+        setLoading(false);
+        setData(res);
+      } catch (error) {
+        setLoading(false);
+      }
     };
 
     fetchData();
   }, []);
+  console.log(data);
   return (
     <div className="flex flex-col justify-between w-full h-[100vh] bg-bgPrimary">
       <button className="bg-white hidden rounded-tl-[16px] shadow-2 rounded-bl-[16px] pl-[5px] right-0 top-[50%] translate-y-[-50%] fixed z-[99999999]">
@@ -55,7 +64,18 @@ function App() {
       <div className="w-full">
         <Navbar data={data} />
         <Routes>
-          <Route path="/" element={<Home data={data} />} />
+          <Route
+            path="/"
+            element={
+              loading ? (
+                <div className="h-[90vh] flex items-center justify-center">
+                  <Loader />
+                </div>
+              ) : (
+                <Home data={data} />
+              )
+            }
+          />
           <Route path="/about-us" element={<AboutUs data={data} />} />
 
           <Route path="/disclaimer" element={<Disclaimer data={data} />} />

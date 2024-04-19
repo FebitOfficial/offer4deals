@@ -7,7 +7,8 @@ import { logo } from ".";
 
 import HomeSwipers from "./_components/HomeSwipers/HomeSwipers";
 import useScrollToTopOnRouteChange from "hooks/useScrollToTop";
-const Home = ({ data, setData }) => {
+import Loader from "components/Loader/Loader";
+const Home = ({ data, setData, loading }) => {
   useScrollToTopOnRouteChange();
   const [showDesc, setShowDesc] = useState(null);
   const [categories, setCategories] = useState([]);
@@ -56,7 +57,10 @@ const Home = ({ data, setData }) => {
   const handleCategoryClick = (idx) => {
     setCurrentCategory(idx);
   };
-
+  console.log(data);
+  if (loading) {
+    return <Loader />;
+  }
   return (
     <div className="overflow-x-hidden">
       {data && <Carousel products={data} />}

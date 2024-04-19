@@ -35,7 +35,20 @@ export const getProducts = () => {
       productRef,
       (snapshot) => {
         const data = snapshot.val();
-        resolve(data);
+        resolve(
+          data
+            .map((item) =>
+              item.Products.map((product) => {
+                return {
+                  ...product,
+                  category: {
+                    name: item.Category,
+                  },
+                };
+              })
+            )
+            .flat(Infinity)
+        );
       },
       (error) => {
         reject(error);
