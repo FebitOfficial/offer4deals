@@ -8,6 +8,7 @@ import { logo } from ".";
 import HomeSwipers from "./_components/HomeSwipers/HomeSwipers";
 import useScrollToTopOnRouteChange from "hooks/useScrollToTop";
 import Loader from "components/Loader/Loader";
+import { FormatDates } from "utils/dates";
 const Home = ({ data, setData, loading }) => {
   useScrollToTopOnRouteChange();
   const [showDesc, setShowDesc] = useState(null);
@@ -113,7 +114,7 @@ const Home = ({ data, setData, loading }) => {
                   initial="initial"
                   animate={animateCards ? "animate" : "initial"} // Animate based on state
                   whileInView={"animate"}
-                  className=" relative flex flex-col overflow-hidden rounded-[20px] p-[20px]  bg-white"
+                  className=" relative flex flex-col justify-between overflow-hidden rounded-[20px] p-[20px]  bg-white"
                 >
                   <img
                     onMouseOver={() => setShowDesc(idx)}
@@ -122,9 +123,9 @@ const Home = ({ data, setData, loading }) => {
                     src={item.image_url}
                     alt={`card-img-${idx}`}
                   />
-                  <div className="px-[24px] py-[12px] flex justify-between items-center">
+                  <div className="px-[24px] py-[12px] flex justify-between items-start">
                     <div>
-                      <p className="text-[18px] font-medium">{item.name}</p>
+                      <p className="text-[15px] font-medium">{item.name}</p>
 
                       <p className="text-[14px] font-medium">
                         {item.category.name}
@@ -133,22 +134,28 @@ const Home = ({ data, setData, loading }) => {
                         Rs.
                         {item.price - item.price * (item.discount / 100)}
                         {"   "}
-                        <span className="text-[grey] text-[16px]">
-                          List Price: <s>Rs. {item.price}</s>
-                        </span>
                       </p>
+                      <span className="text-[grey] text-[16px]">
+                        List Price: <s>Rs. {item.price}</s>
+                      </span>
                     </div>
-                    <div className="flex items-end gap-[8px] flex-col">
+                    <div className="flex  items-end gap-[8px] flex-col">
                       <img
                         src={logo[item.site]}
                         alt="logo"
-                        className="w-10 h-10 object-cover mr-[10px]"
+                        className="w-10 h-10 object-cover "
                       />
+                      <div className=" text-gray-800 font-medium text-right text-[12px]">
+                        {item.updated === item.posted
+                          ? `Posted ${FormatDates.getTime(item.posted)}`
+                          : `Updated ${FormatDates.getTime(item.updated)}`}
+                      </div>
                     </div>
                   </div>
                   <div className="bg-red-500 text-white text-[14px] absolute top-[25px] right-[25px] py-[12px] px-[8px]">
                     {item.discount}% off
                   </div>
+
                   {showDesc === idx && (
                     <motion.div
                       variants={descVariants}
