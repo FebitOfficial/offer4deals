@@ -146,8 +146,8 @@ const Home = ({ data, setData, loading }) => {
                         className="w-10 h-10 object-cover "
                       />
                       <div className=" text-gray-800 font-medium text-right text-[12px]">
-                        {item.updated === item.posted
-                          ? `Posted ${FormatDates.getTime(item.posted)}`
+                        {item.updated === item.created
+                          ? `Posted ${FormatDates.getTime(item.created)}`
                           : `Updated ${FormatDates.getTime(item.updated)}`}
                       </div>
                     </div>
