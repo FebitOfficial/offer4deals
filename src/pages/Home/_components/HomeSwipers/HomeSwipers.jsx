@@ -37,7 +37,7 @@ const HomeSwipers = ({ categories, data }) => {
                       </p>
                       <p className="text-[16px] font-semibold">
                         Rs.
-                        {Math.random(
+                        {Math.round(
                           productMapped.price -
                             productMapped.price * (productMapped.discount / 100)
                         )}

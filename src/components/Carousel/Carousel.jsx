@@ -93,7 +93,7 @@ const Carousel = ({ products }) => {
                           />
                           <p className="text-[16px] font-semibold">
                             Rs.
-                            {Math.random(
+                            {Math.round(
                               item.price - item.price * (item.discount / 100)
                             )}
                             {"   "}

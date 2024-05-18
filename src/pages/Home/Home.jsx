@@ -132,7 +132,7 @@ const Home = ({ data, setData, loading }) => {
                       </p>
                       <p className="text-[16px] font-semibold">
                         Rs.
-                        {Math.random(
+                        {Math.round(
                           item.price - item.price * (item.discount / 100)
                         )}
                       </p>
@@ -170,7 +170,7 @@ const Home = ({ data, setData, loading }) => {
                         </p>
                         <p className="text-[16px] font-semibold">
                           Rs.
-                          {Math.random(
+                          {Math.round(
                             item.price - item.price * (item.discount / 100)
                           )}
                           {"   "}
