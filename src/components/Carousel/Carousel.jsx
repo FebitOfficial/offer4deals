@@ -93,7 +93,9 @@ const Carousel = ({ products }) => {
                           />
                           <p className="text-[16px] font-semibold">
                             Rs.
-                            {item.price - item.price * (item.discount / 100)}
+                            {Math.random(
+                              item.price - item.price * (item.discount / 100)
+                            )}
                             {"   "}
                             <span className="text-[grey] text-[16px]">
                               List Price: <s>Rs. {item.price}</s>

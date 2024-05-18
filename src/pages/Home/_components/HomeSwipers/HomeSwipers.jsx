@@ -37,9 +37,10 @@ const HomeSwipers = ({ categories, data }) => {
                       </p>
                       <p className="text-[16px] font-semibold">
                         Rs.
-                        {productMapped.price -
-                          productMapped.price * (productMapped.discount / 100)}
-                        {"   "}
+                        {Math.random(
+                          productMapped.price -
+                            productMapped.price * (productMapped.discount / 100)
+                        )}
                         <span className="text-[grey] text-[16px]">
                           List Price: <s>Rs. {productMapped.price}</s>
                         </span>
